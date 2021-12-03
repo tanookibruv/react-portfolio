@@ -1,15 +1,15 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home';
 import About from './pages/about';
 import Work from './pages/work';
 import Contact from './pages/contact';
-import Header from './components/header';
+// import Header from './components/header';
 
 function App() {
   return (
   <Router>
-    <Header />
+    {/* <Header /> */}
     <Switch>
       <Route exact path="/">
         <Home />
